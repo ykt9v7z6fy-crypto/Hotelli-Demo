@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Aurora — A quiet lakeside stay in Savonlinna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Hotel <span>Aurora</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    </div>
+    <nav id="site-menu" class="site-menu" aria-label="Primary" hidden>
+      <ul class="nav-list wrap">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="amenities.html">Amenities</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Savonlinna, Finland</p>
+        <h1>Hotel Aurora</h1>
+        <p>A quiet lakeside stay on the shore of Lake Saimaa, a short walk from the old town.</p>
+        <div class="actions">
+          <a class="btn btn-gold" href="rooms.html">View rooms</a>
+          <a class="btn btn-line" href="contact.html">Contact the hotel</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Stay by the water</h2>
+          <p class="lede">Hotel Aurora is a small house hotel with twenty-eight rooms, a wood-fired sauna, and breakfast served until late morning. Guests come for the lake light and leave with the smell of birch in their clothes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-follow">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Rooms to consider</h2>
+          <p class="lede">Three room types, each with linen, a quiet outlook, and a kettle for evening tea.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <a class="card-link" href="room.html?room=standard">
+              <img class="visual" src="images/standard-double.jpg" alt="Standard Double with a linen-dressed queen bed and pines outside the window">
+              <div class="card-body">
+                <h3>Standard Double</h3>
+                <p>A calm room for two, facing the courtyard pines.</p>
+                <p class="price">From €145 / night</p>
+              </div>
+            </a>
+          </article>
+          <article class="card">
+            <a class="card-link" href="room.html?room=lake-view">
+              <img class="visual" src="images/lake-view-suite.jpg" alt="Lake View Suite with a wide window onto the lake">
+              <div class="card-body">
+                <h3>Lake View Suite</h3>
+                <p>A sitting corner and a wide window onto the water.</p>
+                <p class="price">From €240 / night</p>
+              </div>
+            </a>
+          </article>
+          <article class="card">
+            <a class="card-link" href="room.html?room=family">
+              <img class="visual" src="images/family-room.jpg" alt="Family Room with a queen bed, sofa bed, and a view into birch woods">
+              <div class="card-body">
+                <h3>Family Room</h3>
+                <p>Space for four, with a sofa bed and a small table.</p>
+                <p class="price">From €195 / night</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <p style="margin-top: 1.25rem;"><a class="btn btn-pine" href="rooms.html">See all rooms</a></p>
+      </div>
+    </section>
+
+    <section class="section section-follow">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>A few reasons to linger</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <img class="visual" src="images/sauna.jpg" alt="Wood-fired sauna with benches, a stove, and towels">
+            <div class="card-body">
+              <h3>Sauna</h3>
+              <p>Wood-fired every evening, with a cool-down on the jetty.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="visual" src="images/lake.jpg" alt="Wooden jetty and two rowing boats on a calm lake">
+            <div class="card-body">
+              <h3>The lake</h3>
+              <p>Rowing boats in summer and a maintained skating track in winter.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="visual" src="images/breakfast.jpg" alt="Breakfast table with rye bread, berries, porridge, and coffee by the lake">
+            <div class="card-body">
+              <h3>Breakfast</h3>
+              <p>Rye bread, local berries, and coffee from a Savonlinna roaster.</p>
+            </div>
+          </article>
+        </div>
+        <p style="margin-top: 1.25rem;"><a href="amenities.html">Read about the amenities</a></p>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="wrap">
+        <h2>Rantatie 12, Savonlinna</h2>
+        <p>We are on the eastern shore, fifteen minutes from the castle. Write to us if you would like a room held.</p>
+        <div class="actions">
+          <a class="btn btn-gold" href="contact.html">Send an enquiry</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Hotel Aurora</h2>
+        <p>Rantatie 12<br>57130 Savonlinna<br>Finland</p>
+        <p><a href="tel:+358155550142">+358 15 555 0142</a></p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <ul>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Enquire</h2>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:stay@hotelaurora.example">stay@hotelaurora.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap fine-print">A fictional hotel for this demo. Nothing here is a real booking.</div>
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
+</html>

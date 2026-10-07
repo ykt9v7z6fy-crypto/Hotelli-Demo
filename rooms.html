@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rooms — Hotel Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Hotel <span>Aurora</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    </div>
+    <nav id="site-menu" class="site-menu" aria-label="Primary" hidden>
+      <ul class="nav-list wrap">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html" aria-current="page">Rooms</a></li>
+        <li><a href="amenities.html">Amenities</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="eyebrow">Stay</p>
+        <h1>Rooms</h1>
+        <p class="lede">Prices are samples for this demo. Ask us about dates and we will reply as if a real desk were waiting.</p>
+      </div>
+    </section>
+
+    <section class="section section-follow">
+      <div class="wrap grid-3">
+        <article class="card">
+          <a class="card-link" href="room.html?room=standard">
+            <img class="visual" src="images/standard-double.jpg" alt="Standard Double with a linen-dressed queen bed and pines outside the window">
+            <div class="room-thumbs">
+              <img src="images/standard-double-angle.jpg" alt="The same Standard Double seen from the window, with the bed and desk">
+              <img src="images/standard-double-view.jpg" alt="Pine trees in the courtyard, seen from the Standard Double window">
+            </div>
+            <div class="card-body">
+              <h3>Standard Double</h3>
+              <p class="meta">For two · Queen bed</p>
+              <p>A quiet room on the courtyard side, good for a short stay or a night between trains.</p>
+              <ul class="amenity-list">
+                <li>Queen bed</li>
+                <li>Desk and reading lamp</li>
+                <li>Rain shower</li>
+              </ul>
+              <p class="price">€145 / night</p>
+            </div>
+          </a>
+          <p class="card-actions"><a class="btn btn-pine" href="contact.html?room=standard">Ask about this room</a></p>
+        </article>
+
+        <article class="card">
+          <a class="card-link" href="room.html?room=lake-view">
+            <img class="visual" src="images/lake-view-suite.jpg" alt="Lake View Suite with a wide window onto the lake">
+            <div class="room-thumbs">
+              <img src="images/lake-view-angle.jpg" alt="Sitting corner of the Lake View Suite, looking toward the lake">
+              <img src="images/lake-view-window.jpg" alt="The lake and jetty seen from the suite window">
+            </div>
+            <div class="card-body">
+              <h3>Lake View Suite</h3>
+              <p class="meta">For two · King bed and a sofa</p>
+              <p>The suite sits on the top floor. Morning light comes straight off the water.</p>
+              <ul class="amenity-list">
+                <li>King bed</li>
+                <li>Sitting area</li>
+                <li>Bathtub and separate shower</li>
+              </ul>
+              <p class="price">€240 / night</p>
+            </div>
+          </a>
+          <p class="card-actions"><a class="btn btn-pine" href="contact.html?room=lake-view">Ask about this room</a></p>
+        </article>
+
+        <article class="card">
+          <a class="card-link" href="room.html?room=family">
+            <img class="visual" src="images/family-room.jpg" alt="Family Room with a queen bed, sofa bed, and a view into birch woods">
+            <div class="room-thumbs">
+              <img src="images/family-room-angle.jpg" alt="Table and sofa bed in the Family Room, seen from the other side">
+              <img src="images/family-room-view.jpg" alt="Birch woods seen from the Family Room window">
+            </div>
+            <div class="card-body">
+              <h3>Family Room</h3>
+              <p class="meta">For up to four · Queen bed and sofa bed</p>
+              <p>A larger room with room for a cot. The sofa bed is made up on request.</p>
+              <ul class="amenity-list">
+                <li>Queen bed and sofa bed</li>
+                <li>Space for a cot</li>
+                <li>Small table for four</li>
+              </ul>
+              <p class="price">€195 / night</p>
+            </div>
+          </a>
+          <p class="card-actions"><a class="btn btn-pine" href="contact.html?room=family">Ask about this room</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Hotel Aurora</h2>
+        <p>Rantatie 12<br>57130 Savonlinna<br>Finland</p>
+        <p><a href="tel:+358155550142">+358 15 555 0142</a></p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <ul>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Enquire</h2>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:stay@hotelaurora.example">stay@hotelaurora.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap fine-print">A fictional hotel for this demo. Nothing here is a real booking.</div>
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
+</html>

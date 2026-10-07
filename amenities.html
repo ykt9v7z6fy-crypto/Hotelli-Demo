@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amenities — Hotel Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Hotel <span>Aurora</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    </div>
+    <nav id="site-menu" class="site-menu" aria-label="Primary" hidden>
+      <ul class="nav-list wrap">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="amenities.html" aria-current="page">Amenities</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="eyebrow">The house</p>
+        <h1>Amenities</h1>
+        <p class="lede">The hotel stays small on purpose. These are the things guests use every day.</p>
+      </div>
+    </section>
+
+    <section class="section section-follow">
+      <div class="wrap grid-2">
+        <article class="card">
+          <img class="visual" src="images/breakfast.jpg" alt="Breakfast table with rye bread, berries, porridge, and coffee by the lake">
+          <div class="card-body">
+            <h3>Breakfast</h3>
+            <p>Served from 7:30 to 10:30 in the lakeside room. The table holds rye, porridge, seasonal berries, and cheese from a farm nearby.</p>
+            <p>Coffee is refilled without asking. On Sundays the kitchen adds cardamom buns.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="visual" src="images/sauna.jpg" alt="Wood-fired sauna with benches, a stove, and towels">
+          <div class="card-body">
+            <h3>Sauna</h3>
+            <p>The wood-fired sauna is heated every evening from 17:00 to 21:00. Towels are at the changing room door.</p>
+            <p>In summer, guests cool off from the jetty. In winter, there is a hole kept open in the ice when it is safe.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="visual" src="images/lake.jpg" alt="Wooden jetty and two rowing boats on a calm lake">
+          <div class="card-body">
+            <h3>Lake access</h3>
+            <p>Two rowing boats are free for guests and returned to the same mooring. Life jackets are in the boathouse.</p>
+            <p>A marked path follows the shore for about two kilometres and returns through birch woods to the car park.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="visual visual-parking" role="img" aria-label="Muted stone tones for parking"></div>
+          <div class="card-body">
+            <h3>Parking</h3>
+            <p>The courtyard holds twelve cars and two spaces wide enough for a van. Parking is included with the room.</p>
+            <p>An electric charger is available; ask at the desk so it can be switched on for your bay.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Hotel Aurora</h2>
+        <p>Rantatie 12<br>57130 Savonlinna<br>Finland</p>
+        <p><a href="tel:+358155550142">+358 15 555 0142</a></p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <ul>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Enquire</h2>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:stay@hotelaurora.example">stay@hotelaurora.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap fine-print">A fictional hotel for this demo. Nothing here is a real booking.</div>
+  </footer>
+  <script src="js/menu.js"></script>
+</body>
+</html>

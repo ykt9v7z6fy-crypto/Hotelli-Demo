@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Hotel Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Hotel <span>Aurora</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+    </div>
+    <nav id="site-menu" class="site-menu" aria-label="Primary" hidden>
+      <ul class="nav-list wrap">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="amenities.html">Amenities</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="eyebrow">Write to us</p>
+        <h1>Contact</h1>
+        <p class="lede">Tell us the room and the dates you have in mind. The desk replies on weekdays.</p>
+      </div>
+    </section>
+
+    <section class="section section-follow">
+      <div class="wrap wrap-form">
+        <p class="note">This is a demo. Nothing is sent to a server, and the hotel will not receive your message.</p>
+        <div id="form-success" class="success" hidden tabindex="-1">
+          Thank you. This demo saved nothing, but the form accepted your enquiry.
+        </div>
+        <form id="enquiry" class="form" novalidate>
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name">
+            <p id="name-error" class="field-error" hidden></p>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+            <p id="email-error" class="field-error" hidden></p>
+          </div>
+          <div>
+            <label for="room">Room of interest</label>
+            <select id="room" name="room">
+              <option value="not-sure">Not sure</option>
+              <option value="standard">Standard Double</option>
+              <option value="lake-view">Lake View Suite</option>
+              <option value="family">Family Room</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="check-in">Check-in</label>
+              <input id="check-in" name="check-in" type="date">
+            </div>
+            <div>
+              <label for="check-out">Check-out</label>
+              <input id="check-out" name="check-out" type="date">
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            <p id="message-error" class="field-error" hidden></p>
+          </div>
+          <div>
+            <button class="btn btn-pine" type="submit">Send enquiry</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h2>Hotel Aurora</h2>
+        <p>Rantatie 12<br>57130 Savonlinna<br>Finland</p>
+        <p><a href="tel:+358155550142">+358 15 555 0142</a></p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <ul>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Enquire</h2>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:stay@hotelaurora.example">stay@hotelaurora.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap fine-print">A fictional hotel for this demo. Nothing here is a real booking.</div>
+  </footer>
+  <script src="js/menu.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
